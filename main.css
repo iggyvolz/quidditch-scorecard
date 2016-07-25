@@ -1,0 +1,88 @@
+#timer
+{
+  text-align:center;
+  font-size: 500%;
+  border-style: solid;
+}
+#timercontainer
+{
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.button
+{
+  text-align:center;
+  font-size: 250%;
+  width:49%;
+  border-style: solid;
+  font:monospace;
+  margin-top:2%;
+  overflow:auto;
+}
+#numdisplay
+{
+  text-align:center;
+  font-size: 250%;
+  border-style: solid;
+  margin-top:2%;
+}
+.minibutton
+{
+  text-align:center;
+  font-size: 250%;
+  width:25%;
+  margin-left:2%;
+  margin-right:2%;
+  float:left;
+  text-align:center;
+  border-style:solid;
+  margin-top:1%;
+}
+.penaltytype
+{
+  text-align:center;
+  font-size: 250%;
+  width:25%;
+  margin-left:2%;
+  margin-right:2%;
+  float:left;
+  text-align:center;
+  border-style:solid;
+  margin-top:1%;
+}
+#penaltycancel
+{
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  overflow:auto;
+}
+.left
+{
+  float:left;
+}
+.right
+{
+  float:right;
+}
+.center  /* Breaks the margin.  Peter help! */
+{
+  margin-left:auto;
+  margin-right:auto;
+}
+html
+{
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+  cursor:default;
+}
+.hidden
+{
+  display:none;
+}

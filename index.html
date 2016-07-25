@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quidditch Scorecard</title>
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+    </script>
+    <script>
+    API_URL="http:\/\/qs.local\/api.php"
+    </script>
+    <script src="main.js">
+    </script>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <div id="timercontainer">
+        <div id="timer">
+            00:00
+        </div>
+    </div>
+    <div class="menu" id="main">
+        <div class="button left" id="penalty">
+            Penalty
+        </div>
+        <div class="button right" id="snitch">
+            Snitch
+        </div>
+        <div class="button left" id="goal">
+            Goal
+        </div>
+        <div class="button right" id="beat">
+            Beat
+        </div>
+    </div>
+    <div class="menu hidden" id="pchooser">
+        <div class="penaltytype" id="penaltyblue">
+            Blue
+        </div>
+        <div class="penaltytype" id="penaltyyellow">
+            Yellow
+        </div>
+        <div class="penaltytype" id="penaltyred">
+            Red
+        </div>
+        <div class="penaltytype cancel" id="penaltycancel">
+            Cancel
+        </div>
+    </div>
+    <div class="hidden menu" id="numpad">
+        <div id="numdisplay">
+            __
+        </div>
+        <div class="minibutton num" id="num1">
+            1
+        </div>
+        <div class="minibutton num" id="num2">
+            2
+        </div>
+        <div class="minibutton num" id="num3">
+            3
+        </div>
+        <div class="minibutton num" id="num4">
+            4
+        </div>
+        <div class="minibutton num" id="num5">
+            5
+        </div>
+        <div class="minibutton num" id="num6">
+            6
+        </div>
+        <div class="minibutton num" id="num7">
+            7
+        </div>
+        <div class="minibutton num" id="num8">
+            8
+        </div>
+        <div class="minibutton num" id="num9">
+            9
+        </div>
+        <div class="minibutton cancel" id="cancel">
+            Cancel
+        </div>
+        <div class="minibutton num cancel" id="num0">
+            0
+        </div>
+        <div class="minibutton" id="submit">
+            Submit
+        </div>
+    </div>
+    <div class="button center" id="stoppage">
+        Brooms Up
+    </div>
+</body>
+</html>
